@@ -1,0 +1,105 @@
+.cards{
+    /* background: #7d9bf696 !important; */
+    background: #1f1f1f;
+    color:white;
+    /* font-weight: 900 !important; */
+    box-shadow: 0px 0px 5px 0.5px whitesmoke;
+    /* outline: 1px solid black !important; */
+    border-radius: 15px;
+}
+
+.cards h4{
+    font-weight: 800 !important;
+    stroke: 1px solid #ffffff !important;
+}
+
+
+
+
+.int-logo img{
+    object-fit: contain !important;
+    height: 100% !important; 
+    width: 100% !important; 
+    margin: 0px !important;
+    overflow: hidden !important;
+    /* border-right:  0.101px solid white !important; */
+    /* box-shadow: 1.3px 0px 0.5px 0px white; */
+    padding: 0px 0px !important;
+    /* position: relative  !important; */
+    z-index: 0;
+
+}
+span .int-button{
+    text-align: right !important;
+    border-radius: 5px;
+    /* padding: 1px; */
+    /* border: 0.1px solid rgba(255, 255, 255, 0.651) !important;
+     */
+     box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.558);
+     color: rgb(255,255,255,0.798) !important;
+     transition: all 0.3s ease;
+
+    
+}
+
+.int-button:hover{
+        background: #7d9bf6b9 !important;
+}
+.int-para{
+    text-align: left;
+    /* display: inline !important; */
+    padding: 14px 5px;
+    color: rgba(255, 255, 255, 0.674);
+    font-size: 15px;
+    text-wrap: nowrap;
+}
+
+.int-title,.int-desc{
+    line-height: 0.9;
+    text-align: left;
+
+}
+.int-title{
+    font-weight: 600;
+}
+
+.int-desc{
+    color: rgba(255, 255, 255, 0.704) !important;
+    /* padding-top: 20px; */
+    text-align: left !important;
+}
+
+.int-skills{
+    color: rgba(245, 245, 245, 0.605);
+    font-size: smaller;
+    text-align: left !important;
+    padding: 5px;
+    display: inline-block;
+    /* margin:  !important; */
+}
+
+
+/* @media screen and (min-width: 768px) and (max-width: 982px) {
+    .cards{
+        scale:0.9;
+    } */
+/* } */
+
+@media screen and (max-width:576px){
+    .cards{
+        width: 55%;
+        
+    }
+
+    .int-title,.int-desc,.int-para,.int-skills{
+        scale: 0.8;
+        box-shadow: none;
+        /* line-height: ; */
+        padding: 2px 0px !important;
+    }
+
+    .int-logo{
+        box-shadow: none !important;
+        padding: 1px 1px;
+    }
+}

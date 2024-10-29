@@ -1,0 +1,105 @@
+
+
+.project-title{
+    text-wrap: wrap;
+    /* margin-top: 10px; */
+}
+
+.project-logo{
+        box-shadow: 0 0 8px 2px rgba(255,255,255,0.5);
+        padding: 0px;
+        width: 100%;
+        max-height: 450px;
+        object-fit: contain;
+        /* height:320px; */
+        /* opacity:0.9; */
+        cursor: pointer;
+        /* max-height: 350px !important;
+        max-width: 550px !important;  */
+        zoom: 0.9;
+        height: 300px !important;
+        overflow: hidden;
+}
+
+
+.project-card{
+    position: relative;
+    /* margin-left: 1px; */
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+}
+
+.project-overlay::after{
+    /* content: 'Go to Project'; */
+    content:'';
+    color: black;
+    color:white;
+    font-size: large;
+    text-align: center;
+    padding-top: 100px;
+    display: block;
+    position: absolute !important;
+    /* width: 100%;
+    height: 100%; */
+    background-color: transparent;
+    opacity: 0.8 !important;
+    /* top: 10px;    */
+    top:0px;
+    left:15px;
+    /* padding: 10px 10px; */
+    /* right: 2.25rem; */
+    /* bottom: 1.25rem; */
+    overflow: hidden !important;
+    z-index: 100;
+    /* transition: 0.3s ease-in-out; */
+    height: 67%;
+    width: 95%;
+    pointer-events: none !important;
+    background-clip: border-box;
+    overflow: hidden !important;
+    
+}
+.project-overlay{
+    /* transition: all 1s ease-in-out; */
+}
+
+.project-overlay:hover::after{
+    background-color: black;
+    content: 'Go to Project ->';
+    font-weight: bolder;
+    /* filter: brightness(1.1); */
+    opacity: 1;
+    transition: all 0.34s ease-in-out;
+    transform: translateY(1px);
+    overflow: hidden;
+}
+
+.project-title{
+    font-size: 19.5px;
+    font-weight: bold;
+}
+
+.project-desc,.project-desc2{
+    font-size: 15px;
+    opacity: 0.8;
+    text-wrap: wrap;
+    padding: 0 60px !important;
+}
+
+
+@media screen and  (max-width: 565px) {
+    .project-desc{
+        padding: 0px 0px !important;
+        /* text-wrap: nowrap !important; */
+        font-size: 13px !important;
+    }
+
+    .project-title{
+        scale: 0.95;
+        margin-bottom: 2px;
+    }
+
+    .project-card{
+        margin-bottom: 40px !important;
+    }
+}

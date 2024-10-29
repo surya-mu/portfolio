@@ -1,0 +1,139 @@
+
+.hero-title{
+    font-weight:700 !important;
+    text-align: center !important;
+    
+  }
+
+
+  .hero-image{
+    background: radial-gradient(#557df5cc,#7d9bf6b9);
+    width:355px;
+    scale:0.8;
+    object-fit: contain;
+    overflow: hidden;
+    border-radius: 45px;
+    box-shadow: 0.9px 1.8px 12px hsla(0, 2%, 92%, 0.47);      
+    /* text-align: center !important;
+     */
+     /* align-self: center; */
+     /* margin: auto auto !important;
+      */
+      padding-left: 40px;
+  }
+
+  .hero-desc{
+    font-weight:300;
+    opacity: 0.9;
+    font-size: 20.5px;
+
+  }
+
+
+  .btn{
+    border-radius: 16px;
+    padding: 10px 15px;
+    font-weight: 500;
+    font-size: 17px;
+    margin-top: 10px;
+    box-shadow: 0 0 0 1px grey;
+    transition: all 0.1s ease-in-out;
+
+  }
+
+.btn:hover{
+    transform: translateY(-2px);
+}
+
+.socials{
+  padding: 1px 5px;
+}
+
+.socials svg:hover{
+  transform: translateY(-2px);
+}
+
+
+.socials svg{
+  transition: all 0.1s ease-in-out;
+}
+
+
+
+@keyframes appear{
+  0%{
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  100%{
+    opacity: 1;
+  
+  }
+  
+}
+
+
+@media  screen and (max-width: 580px) {
+  .stats img{
+    width: 90%;
+    height: 200px;
+    padding: 0px;
+    margin: 0px !important;
+    object-fit: contain;
+  }
+
+
+  .hero-image{
+    width: 95%;
+    padding:0px;
+  }
+}
+
+
+
+@media screen and (min-width:320px) and (max-width:480px){
+  .hero-image{
+    /* padding: 0px !important; */
+    
+  }
+
+  nav{
+    /* width: 100% !important; */
+    padding: 0px !important;
+    margin: 5px !important;
+    margin: 0 auto !important;
+    justify-content: space-around !important;
+  }
+
+  button{
+    padding: 0px !important;
+    margin: 0px !important;
+    font-size: 15px !important;
+  }
+
+  .navbar-brand{
+    padding: 0px !important;
+    margin: 0px !important;
+    font-size: 10px !important;
+  }
+
+  .hero-image{
+    scale: 0.7;
+  }
+
+  .hero-desc{
+    scale: 0.85;
+  }
+
+  .hero-title{
+    scale: 0.9;
+  }
+
+  .resume{
+    scale: 0.86;
+  }
+  
+  .icons{
+      scale: 0.88;
+  }
+}

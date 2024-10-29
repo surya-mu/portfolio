@@ -1,0 +1,41 @@
+.row{
+    background: rgb(10,10,10) !important;
+}
+
+.purple{
+    /* background: linear-gradient(0deg, #4169E1, #7d9bf6); */
+    /* background: linear-gradient(0deg, #0d47a1, #7d9bf6); */
+    /* background: linear-gradient(0deg, #333333, #7d9bf6); */
+    /* background: linear-gradient(180deg, #004d4d, #7d9bf6); */
+    /* background: linear-gradient(180deg, #3c6e94, #7d9bf6); */
+    background: linear-gradient(180deg, #5690dc, #83a0f7);
+    font-weight: 550 !important;
+
+
+
+
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+    
+
+
+
+
+}
+
+h4{
+    /* font-weight: 550; */
+    font-weight: bolder;
+}
+
+.about a :not(.fornav){
+    background: linear-gradient(180deg, #5690dc, #83a0f7);
+    font-weight: 550 !important;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.current{
+    font-weight: bolder !important;
+}
