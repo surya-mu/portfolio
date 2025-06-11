@@ -17,7 +17,7 @@
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 
-    
+
 
 
 
@@ -38,4 +38,28 @@ h4{
 
 .current{
     font-weight: bolder !important;
+}
+
+
+.hire-form {
+  background-color: #1f1f1f;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px 0.5px whitesmoke;
+}
+
+.custom-input {
+  background-color: #2a2a2a;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.custom-input:focus {
+  background-color: #2a2a2a;
+  color: white;
+  border-color: #7d9bf6;
+  outline: none;
+  box-shadow: 0 0 3px #7d9bf6;
 }

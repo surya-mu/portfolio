@@ -2,15 +2,18 @@
         font-size: 16px;
     }
 
-    .active{
+    .navbar-nav .active{
         color: black!important;
         color: white !important;
         /* box-shadow: 0px 0px 10px -51px #7d9bf6b9; */
         /* stroke: 1px black solid !important; */
         background-color: #7d9bf6b9;
         border-radius: 15px;
-        text-decoration: underline !important; 
+        text-decoration: none !important; 
     }
+
+    
+
 
     .nav-link:hover{
         color:white !important;

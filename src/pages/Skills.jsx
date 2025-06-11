@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
+// import Navbar from '../components/Navbar'
 // import { Link } from 'react-router-dom'
 import '../styles/Skills.css'
 import c1 from '../images/c1.png'
@@ -14,6 +14,7 @@ import c9 from '../images/c9.png'
 import c10 from '../images/c10.png'
 import c11 from '../images/c11.png'
 import c12 from '../images/c12.png'
+import c13 from '../images/c13.png'
 import left from '../images/caret-circle-left.svg'
 import right from '../images/caret-circle-right.svg'
 import e1 from '../images/e1.png'
@@ -25,15 +26,12 @@ import { useEffect } from 'react'
 function Skills() {
   useEffect(() => {
     const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
-    // const tooltipList = [...tooltipTriggerList].map((tooltipTriggerEl) => new window.bootstrap.Tooltip(tooltipTriggerEl));
+     [...tooltipTriggerList].map((tooltipTriggerEl) => new window.bootstrap.Tooltip(tooltipTriggerEl));
   }, []);
   // const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
   // const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
   return (
     <div className='container p-0 mb-1'>
-      <div className="fornav mt-5">
-        <Navbar />
-      </div>
             <div className='content-scroll'>
             <div className="my-skills mt-5 pt-5">
                   <h2 className='text-light text-center my'>My Skills</h2>
@@ -42,9 +40,9 @@ function Skills() {
                       {/* <!-- Programming Languages --> */}
                       <div className="col-md-4 mx-auto">
                       <img src="https://img.icons8.com/?size=100&id=l75OEUJkPAk4&format=png&color=000000" alt="Python" className="skill-icons2 " data-bs-toggle="tooltip" data-bs-title="Python"/>
-                      <img src="https://img.icons8.com/?size=100&id=shQTXiDQiQVR&format=png&color=000000" alt="C" className="skill-icons2" data-bs-toggle="tooltip" data-bs-title="C" />
-                      <img src="https://img.icons8.com/?size=100&id=40669&format=png&color=000000" alt="C++" className="skill-icons2" data-bs-toggle="tooltip" data-bs-title="C++" />
-                      <img src="https://img.icons8.com/?size=100&id=Pd2x9GWu9ovX&format=png&color=000000" alt="Java" className="skill-icons2" data-bs-toggle="tooltip" data-bs-title="Java" />
+                      <img src="https://img.icons8.com/?size=100&id=4PiNHtUJVbLs&format=png&color=000000" alt="Tailwind" className="skill-icons2" data-bs-toggle="tooltip" data-bs-title="Tailwind" />
+                      <img src="https://img.icons8.com/?size=100&id=wU62u24brJ44&format=png&color=000000" alt="AWS" className="skill-icons2" data-bs-toggle="tooltip" data-bs-title="AWS" />
+                      <img src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000" alt="Javascript" className="skill-icons2" data-bs-toggle="tooltip" data-bs-title="Javascript" />
                       </div>
                       {/* <!-- Technologies Known --> */}
                       <div className="col-md-4 mx-auto">
@@ -85,15 +83,11 @@ function Skills() {
                       </div>
                     </div>
 
-            </div>
-            <div className="checkout mx-auto text-center py-3 mb-3">
-             <button  onClick={() => window.scrollBy({ top: 700, behavior: 'smooth' })} className="btn text-center mx-2" style={{backgroundColor:"#7d9bf6"}}>See my Certifications  &nbsp; <img width="15" height="15" src="https://img.icons8.com/?size=100&id=41202&format=png&color=000000" alt="external-arrow-up-right-arrows-thin-kawalan-studio"/></button>
-             {/* <Link to='/experience'><button className='btn btn-dark text-light mx-2'>My Work -&gt;</button></Link>  */}
-            </div>
+</div>
           
 
           <div id="carouselExampleDark" className="carousel carousel-dark slide col-md-5 mx-auto pt-5" data-bs-theme="dark" data-bs-wrap="true" data-bs-ride="carousel">
-        <h3 className='text-light pb-4 text-center certi'>My Certifications</h3>
+        <h3 className='text-light mt-5 text-center certi'>My Certifications</h3>
         <div className="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -107,9 +101,18 @@ function Skills() {
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="9" aria-label="Slide 10"></button>
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="10" aria-label="Slide 11"></button>
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="11" aria-label="Slide 12"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="12" aria-label="Slide 13"></button>
+
         </div>
-  <div className="carousel-inner">
+  <div className="carousel-inner" data-bs-touch="true">
     <div className="carousel-item active" data-bs-interval="5000">
+      <img src={c13} className="d-block w-100" alt="..."/>
+      <div className="carousel-caption">
+        <h5>AWS Cloud Practitioner CLF-02(AWS)</h5>
+        <p>AWS • Cloud Computing </p>
+      </div>  
+    </div>
+    <div className="carousel-item" data-bs-interval="5000">
       <img src={c1} className="d-block w-100" alt="..."/>
       <div className="carousel-caption">
         <h5>MERN Full Stack Externship (Ethnus)</h5>

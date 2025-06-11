@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
+// import Navbar from '../components/Navbar'
 import '../styles/Exp.css'
 import c1 from '../images/exp1.png'
 import c2 from '../images/exp2.png'
@@ -9,9 +9,7 @@ import c5 from '../images/exp5.jpg'
 function Exp() {
   return (
     <div className='container p-0 mb-1'>
-        <div className="fornav mt-5">
-            <Navbar/>
-        </div>
+
         <div className='pt-5 mx-auto'>
                 <h2 className="text-light text-center pb-3">
                     Work Experience

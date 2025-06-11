@@ -12,10 +12,19 @@ body{
 .container{
     padding: 0px;
     margin-top: 0px !important;
-    width: 90vw;
+    /* width: 90vw; */
     /* border-right:white 0.3px solid; */
     /* border-left:white 0.3px solid; */
     /* border-top: rgba(255, 255, 255, 0.471) 0.3px solid;
      */
      /* box-shadow: 0px 1px 10px white; */
+      
 }
+
+
+html{
+  scroll-behavior: smooth !important;
+  scroll-padding-top: 23px;
+
+}
+

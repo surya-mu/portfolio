@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Hero.css'
-import Navbar from './Navbar'
-import url from '../Resume2024.pdf'
+// import Navbar from './Navbar'
+import url from '../Resume2025.pdf'
 import img from '../images/Designer7.png';
 // const GithubCalendar = require('github-calendar');
 // import { useEffect } from 'react';
@@ -13,14 +13,13 @@ function Hero() {
  
   return (
     <div className="hero mt-5">
-      <Navbar/>
       <div className="hero-image text-center mx-auto">
         <img src={img} alt="Profile"  />
       </div>
       <div className="hero-title text-light mt-4">
         <h3>Hey! I'm Surya.</h3>
         <h4 className='hero-desc ps-2'> Web Developer. UI Enthusiast. Open Source Contributor.</h4>
-        <a href={url} download='Resume2024' className="resume btn text-dark bg-light text-bold cursor-pointer"> 
+        <a href={url} download='SuryaMU_Resume_2025' className="resume btn text-dark bg-light text-bold cursor-pointer"> 
           Resume 
           <img width="24" height="24" src="https://img.icons8.com/external-thin-kawalan-studio/24/external-arrow-up-right-arrows-thin-kawalan-studio.png" alt="external-arrow-up-right-arrows-thin-kawalan-studio"/>
            </a>

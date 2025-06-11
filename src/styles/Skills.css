@@ -1,6 +1,6 @@
-.carousel { overflow:hidden; padding-bottom: 5rem; }
+.carousel { padding-bottom: 5rem; overflow: visible !important; }
 .carousel-caption { top: 102%; color:white !important;}
-.carousel-inner { overflow: visible !important;  }
+/* .carousel-inner { overflow: visible !important;  } */
 /* .carousel-control-next, .carousel-control-prev, .carousel-indicators{ bottom:0rem; } */
 .carousel-control-prev{
     left: -18px;
@@ -21,14 +21,14 @@
      max-width: 540px !important;
     /* max-height: 400px !important; */
     height: 380px !important;
-    /* overflow: hidden !important; */
+    overflow: hidden !important;
     object-fit: cover !important;
     /* padding: 1px 1px; */
     display: block !important;
 }
 
 .carousel-item{
-    /* overflow: hidden !important; */
+    overflow: hidden !important;
     background: transparent;
 }
 
@@ -36,10 +36,13 @@
     text-wrap: nowrap !important;
     white-space: nowrap !important;
     font-size: 13px;
-    color: #999999;
+    color: #999999 !important;
     font-weight: 400;
 }
 
+.carousel-inner {
+  /* overflow: visible !important; */
+}
 .carousel-caption h5{
     font-weight: 450;
     font-size: large;
@@ -58,7 +61,7 @@
         padding: 0px;
         margin: 0px;
         /* padding-bottom: 50px; */
-        overflow: visible !important;
+        overflow: hidden !important;
     }
 
     .carousel-item{
@@ -278,3 +281,8 @@
         margin: 0px !important;
     }
 }
+
+.carousel-inner {
+  overflow: hidden !important;
+}
+

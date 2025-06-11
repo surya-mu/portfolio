@@ -1,22 +1,34 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
+// import Navbar from '../components/Navbar'
 import p1 from '../images/p1.png'
 import p2 from '../images/p2.png'
 import p3 from '../images/p3.png'
 import p4 from '../images/p4.png'
 import p5 from '../images/p5.png'
+import p6 from '../images/p6.png'
 import '../styles/Projects.css'
 
 function Projects() {
   return (
     <div className='p-0 container'>
-      <div className="fornav mx-5">
-        <Navbar />
-      </div>
+
       <div className='pt-5 mt-5'>
         <h2 className="text-light text-center mb-5 ">Projects</h2>
       </div>
       <div className='project-container row px-5 mt-4'>
+        <div className="project-card flex col-lg-6 col-12 col-sm-12 mb-4">
+          <div className="project-overlay">
+            <a href="https://zapplink.tech/" target="_blank" rel="noopener noreferrer">
+              <img src={p6} height='300' width='450' alt="Lost and Found Web Application" className="project-logo" />
+            </a>
+          </div>
+          <h4 className="project-title text-light text-center mt-3 ">ZappLink - A URL Shortening Web App</h4>
+          <p className="project-desc text-light pt-1 text-center px-5 text-wrap ms-auto">
+            Zapplink serves as a URL-Shortening service, built on a Custom API and Domain, using MERN Stack.
+            </p>
+          {/* <p className='text-light project-desc2 text-center px-5'>Built using MERN Stack and Tailwind CSS</p> */}
+        </div>
+
         <div className="project-card flex col-lg-6 col-12 col-sm-12 mb-4">
           <div className="project-overlay">
             <a href="https://lost-found-web-application.vercel.app/" target="_blank" rel="noopener noreferrer">
@@ -63,12 +75,12 @@ function Projects() {
     <div className="project-container mb-5 px-5 row">
     <div className="project-card mx-auto  flex col-lg-6 col-12 col-sm-12 mb-4">
           <div className="project-overlay">
-            <a href="https://drive.google.com/file/d/1_30Q8gW9EVV2Q02aG3knGQhdmImvKtZ5/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-              <img src={p5} height='300' width='400' alt="Security and Information Event Management Dashboard" className="project-logo" />
+            <a href=" https://www.kaggle.com/code/musurya/a-yolov11-wbf-herbicide-resistant-weed-detection" target="_blank" rel="noopener noreferrer">
+              <img src={p5} height='300' width='400' alt="Research Project" className="project-logo" />
             </a>
           </div>
-          <h4 className="project-title text-light text-center mt-3">AI-Powered Targeted Space <br /> Debris Detection and Mitigation</h4>
-          <p className="project-desc text-light pt-1 text-center">A Research on Debris Image Classification and Mitigation. <br /> On Review by the IEEE Access Research Panel.</p>
+          <h4 className="project-title text-light text-center mt-3">Herbicide Resistant Weed Detection using YOLOv11 and Weighted Box Fusion</h4>
+          <p className="project-desc text-light pt-1 text-center">A Novel Ensemble Approach to Detect Herbicide-Resistant Weeds using YOLOv11-WBF pipeline.</p>
         </div>
     </div>
     </div>
