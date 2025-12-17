@@ -1,11 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.af6794c0.css",
-    "main.js": "/portfolio/static/js/main.72327eae.js",
+    "main.js": "/portfolio/static/js/main.e7529fbc.js",
     "static/media/p1.png": "/portfolio/static/media/p1.1cb13325aed6e2ed3b91.png",
     "static/media/p4.png": "/portfolio/static/media/p4.68f491f51af4f6eefb97.png",
     "static/media/e2.png": "/portfolio/static/media/e2.f16cc838d7ba9115b83c.png",
-    "static/media/Designer10.png": "/portfolio/static/media/Designer10.7e381a5ac2e2b53fe886.png",
     "static/media/c12.png": "/portfolio/static/media/c12.b668074ed87f757c852e.png",
     "static/media/Resume2025.pdf": "/portfolio/static/media/Resume2025.ab801c975aaa4044851b.pdf",
     "static/media/c9.png": "/portfolio/static/media/c9.4805682a75f31cb4b120.png",
@@ -30,13 +29,13 @@
     "static/media/p2.png": "/portfolio/static/media/p2.749546aa8266cabbf5eb.png",
     "static/media/Designer7.png": "/portfolio/static/media/Designer7.4b63636d1c32d1b46a5f.png",
     "index.html": "/portfolio/index.html",
-    "static/media/caret-circle-right.svg": "/portfolio/static/media/caret-circle-right.5f90e612169a8282c2fd2a79232a143b.svg",
-    "static/media/caret-circle-left.svg": "/portfolio/static/media/caret-circle-left.b1053ed457c0a5850fe9e99cd7e8e0ae.svg",
+    "static/media/caret-circle-right.svg": "/portfolio/static/media/caret-circle-right.7030c65c4ce348e11cdd5b5a4467264e.svg",
+    "static/media/caret-circle-left.svg": "/portfolio/static/media/caret-circle-left.917d92ba023c1c1f3656858c4059d468.svg",
     "main.af6794c0.css.map": "/portfolio/static/css/main.af6794c0.css.map",
-    "main.72327eae.js.map": "/portfolio/static/js/main.72327eae.js.map"
+    "main.e7529fbc.js.map": "/portfolio/static/js/main.e7529fbc.js.map"
   },
   "entrypoints": [
     "static/css/main.af6794c0.css",
-    "static/js/main.72327eae.js"
+    "static/js/main.e7529fbc.js"
   ]
 }
