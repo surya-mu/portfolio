@@ -34,25 +34,7 @@ function Exp() {
                     </div>
                     
                 </div>
-                <div className="row text-center mt-4 pt-2">
-                    <div className="col-sm-6 col-md-8 col-8 col-lg-6 cards mx-auto">
-                        <div className="row">
-                            <div className="col-md-3 bg-dark p-5 col-lg-4 int-logo">
-                                    <img className='int-logo'  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfObDqU22NfO1ZU6VYAfmye8mIhyFoiYIekw&s" alt="" />
-                            </div>
-                            <div className="col-md-9  col-lg-8">
-                                 <h5 className='pt-3 int-title'>Cigna Healthcare </h5>
-                                 <p className='text-light int-desc'> QA & Testing Associate Analyst | Oct 2025 - <b>Present</b></p>
-                                 <p className='text-light text-wrap int-para'>Working on Selenium and AccelQ to automate tests on Cigna GIH portal.</p>
-                                <span>
-                                    <p className="int-skills"> ● Selenium ● Java ● AccelQ </p>
-                                    <button className='text-light  bg-dark int-button mx-5'><img src="https://img.icons8.com/?size=15&id=3262&format=png&color=ffffff" alt="" /></button>
-                                </span>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    </div>
+                
                 <div className="row text-center mt-4 pt-2">
                     <div className="col-sm-6 col-md-8 col-8 col-lg-6 cards mx-auto">
                         <div className="row">
