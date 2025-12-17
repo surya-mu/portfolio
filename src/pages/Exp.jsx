@@ -22,7 +22,7 @@ function Exp() {
                             </div>
                             <div className="col-md-9  col-lg-8">
                                  <h5 className='pt-3 int-title'>Cigna Healthcare </h5>
-                                 <p className='text-light int-desc'> QA & Testing Associate Analyst |  Oct 2025 - <b>Present</b></p>
+                                 <p className='text-light int-desc'> QA and Testing Associate Analyst |  Oct 2025 - <b>Present</b></p>
                                  <p className='text-light text-wrap int-para'> Working with Selenium and AccelQ to test CHSI's GIH Web Applications.</p>
                                 <span>
                                     <p className="int-skills"> Java ● Selenium ● Appium ● AccelQ </p>
