@@ -1,8 +1,9 @@
 import React from 'react';
 // import Navbar from '../components/Navbar';
-import im from '../images/Designer10.png';
+// import im from '../images/Designer10.png';
 import '../styles/About.css';
 import ContactForm from '../components/ContactForm';
+
 // import p7 from '../images/p7.png';
 
 function About() {

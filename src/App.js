@@ -6,12 +6,14 @@ import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Skills from './pages/Skills';
 import About from './pages/About';
+// import ReactFullpage from '@fullpage/react-fullpage';
 
 // import 'react-router-dom'
 // import img from './images/Designer7.png'
 
 // import {Route, Routes} from 'react-router-dom';
 import Navbar from './components/Navbar';
+import '../src/App.css'
 
 function App() {
   return (

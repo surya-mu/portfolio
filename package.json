@@ -1,10 +1,11 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "./",
+  "homepage": "https://surya-mu.me",
   "private": true,
   "dependencies": {
     "@formspree/react": "^3.0.0",
+    "@fullpage/react-fullpage": "^0.1.48",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -13,7 +14,9 @@
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.2",
     "react-scripts": "5.0.1",
-    "react-scrollspy": "^3.4.3"
+    "react-scrollspy": "^3.4.3",
+    "react-snap-scroll": "^0.0.5",
+    "snap-scroll-react": "^4.4.0"
   },
   "scripts": {
     "start": "react-scripts start",
